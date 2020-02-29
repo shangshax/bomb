@@ -158,7 +158,7 @@
       this.bomb.style['fontSize'] = '7px';
       this.bomb.style['color'] = '#fff';
       this.bomb.style['lineHeight'] = "" + Bomb.SIZE + "px";
-      this.bomb.style['background'] = 'rgb(255,255,255,0.5)';
+      this.bomb.style['background'] = 'rgb(0,0,0,0.5)';
       this.bomb.style['position'] = 'absolute';
       this.bomb.style['top'] = "" + (this.pos.y - Bomb.SIZE / 2) + "px";
       this.bomb.style['left'] = "" + (this.pos.x - Bomb.SIZE / 2) + "px";
