@@ -187,7 +187,7 @@
     Bomb.prototype.exploded = function() {
       this.state = 'exploded';
       this.bomb.innerHTML = '';
-      this.bomb.style['fontSize'] = '8px';
+      this.bomb.style['fontSize'] = '10px';
       return this.bomb.style['opacity'] = 0.05;
     };
 
