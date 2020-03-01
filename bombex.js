@@ -139,7 +139,7 @@
       };
       this.body = document.getElementsByTagName("body")[0];
       this.state = 'planted';
-      this.count = 41;
+      this.count = 60;
       this.drop();
     }
 
